@@ -3,7 +3,7 @@
     "map": {
         "tileName": "OSMFJ", // タイル一覧は config-system.jsonc へ
         "viewCenter": [
-            136.26398,
+            136.27215,
             35.38047
         ],
         "viewPitch": 30,
@@ -19,16 +19,16 @@
                 34.80000
             ]
         ],
-        "initZoom": 8,
+        "initZoom": 14,
         "maxZoom": 23,
-        "modalZoom": 19 // モーダルダイアログ表示時のズームサイズ   
+        "modalZoom": 18 // モーダルダイアログ表示時のズームサイズ   
     },
     "view": {
         "poiZoom": {
             // アイコンの前後位置は後ろの方が手前になる
-            "historic_area": 13,
-            "historic_poi": 15,
-            "activity": 11
+            "historic_area": 15,
+            "historic_poi": 16,
+            "activity": 13
         },
         "poiFilter": "all", // listTable更新時 all:全て / filter:絞り込み / "":非連動
         "editZoom": {
