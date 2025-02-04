@@ -7,10 +7,7 @@
             ],
             "tags": [
                 "amenity=place_of_worship",
-                "historic=archaeological_site",
-                "historic=battlefield",
-                "historic=manor",
-                "historic=fort"
+                "historic"
             ],
             "expression": {
                 "poiView": true, // true時はアイコン表示
@@ -29,21 +26,9 @@
                 "nwr[\"tourism\"]"
             ],
             "tags": [
-                "tourism=viewpoint",
-                "tourism=museum",
-                "historic=building",
-                "historic=memorial",
-                "historic=mine_shaft",
-                "historic=milestone",
-                "historic=monument",
-                "historic=rune_stone",
-                "historic=stone",
-                "historic=tomb",
-                "historic=tower",
-                "historic=vehicle",
-                "historic=wayside_cross",
-                "historic=wayside_shrine",
-                "historic=wreck"
+                "amenity=place_of_worship",
+                "tourism",
+                "historic"
             ],
             "expression": {
                 "poiView": true, // true時はアイコン表示
