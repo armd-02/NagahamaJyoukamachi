@@ -23,12 +23,16 @@
             "overpass": [
                 "nwr[\"amenity\"]",
                 "nwr[\"historic\"]",
-                "nwr[\"tourism\"]"
+                "nwr[\"tourism\"]",
+                "nwr[\"man_made\"]",
+                "nwr[\"natural\"]"
             ],
             "tags": [
                 "amenity=place_of_worship",
                 "tourism",
-                "historic"
+                "historic",
+                "man_made",
+                "natural"
             ],
             "expression": {
                 "poiView": true, // true時はアイコン表示
