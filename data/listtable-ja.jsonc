@@ -18,13 +18,13 @@
                     "width": "30%"
                 }
             ],
-            "poi_fields": [
+            "poiFields": [
                 "id",
                 "#category",
                 "name"
             ],
-            "act_fields": [
-                "id",
+            "actFields": [ //#付きはOSMタグ、ただし#categoryのみタグからのカテゴリ名判定結果
+                "id", // 最初の列はid固定(#idにするとOSMのPoiでユニークになりActが欠落する)
                 "#category",
                 "#name"
             ]
