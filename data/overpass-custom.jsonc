@@ -6,6 +6,7 @@
                 "nwr[\"historic\"]"
             ],
             "tags": [
+                "amenity=grave_yard",
                 "amenity=place_of_worship",
                 "historic"
             ],
@@ -19,19 +20,70 @@
         },
         "historic_poi": {
             "overpass": [
+                "nwr[\"amenity=grave_yard\"]",
+                "nwr[\"amenity=place_of_worship\"]",
+                "nwr[\"historic\"]",
+                "nwr[\"tourism\"]",
+                "nwr[\"man_made\"]"
+            ],
+            "tags": [
+                "amenity=grave_yard",
+                "amenity=place_of_worship",
+                "man_made!=gasometer",
+                "man_made!=manhole",
+                "man_made=adit",
+                "man_made=ceremonial_gate",
+                "man_made=cross",
+                "man_made=torii",
+                "tourism=artwork",
+                "tourism=attraction",
+                "tourism=viewpoint",
+                "tourism=theme_park",
+                "tourism=museum",
+                "tourism=information",
+                "tourism=gallery",
+                "historic"
+            ],
+            "expression": {
+                "poiView": true, // true時はアイコン表示
+                "viewArea": true,
+                "stroke": "#606060",
+                "stroke-width": 0,
+                "fill-opacity": 0.25
+            }
+        },
+        "natural_poi": {
+            "overpass": [
+                "nwr[\"natural\"]"
+            ],
+            "tags": [
+                "natural!=shrubbery",
+                "name=*"
+            ],
+            "expression": {
+                "poiView": true, // true時はアイコン表示
+                "viewArea": true,
+                "stroke": "#606060",
+                "stroke-width": 0,
+                "fill-opacity": 0.25
+            }
+        },
+        "edit_poi": {
+            "overpass": [
                 "nwr[\"amenity\"]",
+                "nwr[\"shop\"]",
                 "nwr[\"historic\"]",
                 "nwr[\"tourism\"]",
                 "nwr[\"man_made\"]",
                 "nwr[\"natural\"]"
             ],
             "tags": [
-                "amenity=place_of_worship",
-                "man_made!=gasometer",
-                "man_made!=manhole",
-                "tourism",
+                "amenity",
+                "shop",
                 "historic",
-                "natural!=shrubbery"
+                "tourism",
+                "man_made",
+                "natural"
             ],
             "expression": {
                 "poiView": true, // true時はアイコン表示

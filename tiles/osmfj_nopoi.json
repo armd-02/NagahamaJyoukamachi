@@ -3327,6 +3327,50 @@
             ]
         },
         {
+            "id": "road_major_rail-copy",
+            "type": "line",
+            "source": "openmaptiles",
+            "source-layer": "transportation",
+            "minzoom": 10,
+            "paint": {
+                "line-color": "rgba(96, 96, 96, 0.37)",
+                "line-width": {
+                    "base": 1.4,
+                    "stops": [
+                        [
+                            12,
+                            1
+                        ],
+                        [
+                            16,
+                            2
+                        ],
+                        [
+                            20,
+                            4
+                        ]
+                    ]
+                }
+            },
+            "metadata": {},
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "subclass",
+                    "tram"
+                ],
+                [
+                    "==",
+                    "class",
+                    "transit"
+                ]
+            ],
+            "layout": {
+                "visibility": "visible"
+            }
+        },
+        {
             "id": "road_major_rail",
             "type": "line",
             "source": "openmaptiles",

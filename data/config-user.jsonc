@@ -62,15 +62,13 @@
         "poiFilter": "", // poiView時の表示範囲 all:画面外も表示 / "":画面内だけを表示
         "poiZoom": {
             // アイコンの前後位置は後ろの方が手前になる
-            "historic_area": 16,
-            "historic_poi": 16,
-            "activity": 13
+            "historic_area": 15,
+            "historic_poi": 16.5,
+            "natural_poi": 16.5,
+            "activity": 12
         },
         "editZoom": {
             // 編集時に追加するpoiZoom
-            "historic_area": 16,
-            "historic_poi": 16,
-            "activity": 13
         }
     },
     "selectItem": { // 選択リストの内容を手動記載 / 空の時は "" とする
@@ -130,8 +128,8 @@
                 "divider": false
             },
             {
-                "glot-model": "licence_title",
-                "linkto": "javascript:cMapMaker.licence()",
+                "glot-model": "owner",
+                "linkto": "https://nagahama.net/jyoukamachi/",
                 "divider": false
             },
             {

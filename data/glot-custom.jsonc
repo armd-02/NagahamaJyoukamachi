@@ -1,23 +1,23 @@
 {
     "site_title": {
         "ja": "長浜城下町遺産マップ",
-        "en": "Nagahama Castle Town Heritage Map"
+        "en": "Nagahama Jokamachi Heritage Map"
     },
     "site_subtitle": {
         "ja": "「長浜城下町遺産」選定事業事務局<br>長浜城下町まちづくり勉強会",
-        "en": "Nagahama Castle Town Heritage Selection Project Secretariat<br>Nagahama Castle Town Urban Development Study Group"
+        "en": "Nagahama Jokamachi Heritage Selection Project Secretariat<br>Nagahama Jokamachi Urban Development Study Group"
     },
     "about": {
-        "ja": "長浜城下町遺産マップ",
-        "en": "agahama Castle Town Heritage Map"
+        "ja": "長浜城下町遺産マップとは",
+        "en": "about agahama Jokamachi Heritage Map"
     },
     "about_message": {
-        "ja": "長浜城下町遺産に関する情報を地図に表示するWebアプリです。データはOpenStreetMapを利用しています。",
-        "en": "This is a web application that displays information about Nagahama Castle Town Heritage on a map. Data is provided by OpenStreetMap."
+        "ja": "<a href='https://nagahama.net/jyoukamachi/' target='_new'>長浜城下町遺産</a>に関する情報を地図に表示するWebサイトです。<br>地図などのデータはOpenStreetMapとWikimedia Commons、長浜城下町遺産のホームページなどを利用しています。",
+        "en": "This is a website that displays information about Nagahama Jokamachi Heritage on a map. <br>Map data is sourced from OpenStreetMap, Wikimedia Commons, the Nagahama Jokamachi Heritage website, and other sources."
     },
     "owner": {
-        "ja": "",
-        "en": ""
+        "ja": "「長浜城下町遺産」選定事業事務局のサイトへ",
+        "en": "Go to the Nagahama Jokamachi Heritage Selection Project Secretariat website"
     },
     "licence_title": {
         "ja": "利用しているデータについて",
@@ -29,7 +29,7 @@
     },
     "develop_site": {
         "ja": "長浜城下町遺産マップの開発サイトへ",
-        "en": "Nagahama Castle Town Heritage Map Development Site"
+        "en": "Nagahama Jokamachi Heritage Map Development Site"
     },
     "more_message": {
         "ja": "",
@@ -38,10 +38,6 @@
     "activities": {
         "ja": "活動履歴",
         "en": "Activities"
-    },
-    "libc": {
-        "ja": "年表",
-        "en": "chronology"
     },
     "actdate": {
         "ja": "確認日",
