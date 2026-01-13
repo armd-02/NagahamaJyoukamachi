@@ -41,22 +41,12 @@ a {
     color: rgb(0 117 58);
 }
 
-/*
-#article {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-*/
-
 #mapid {
     height: 100%;
 }
 
 .two-pane {
     display: flex;
-    flex-direction: column;
-    /* デフォルト = 縦並び */
 }
 
 #top-pane {
@@ -414,23 +404,4 @@ tr.selected td {
     color: #000;
     background: rgba(0, 0, 0, 0.05);
     border-radius: 6px;
-}
-
-/* モバイル */
-@media (min-width: 1080px) {
-    .two-pane {
-        flex-direction: row;
-        height: 100vh;
-    }
-
-    .two-pane aside {
-        width: 480px;
-        flex: 0 0 0px;
-        height: 100vh;
-    }
-
-    .two-pane main {
-        flex: 1 1 auto;
-        height: 100vh;
-    }
 }
