@@ -9,8 +9,7 @@
         ],
         "viewPitch": 30,
         "maxPitch": 60,
-        "maxbounds": "",
-        "_maxBounds": [
+        "_maxBounds": [ // 旧設定値（現在は無効）
             [
                 135.30000,
                 34.54000
@@ -20,6 +19,7 @@
                 34.80000
             ]
         ],
+        "maxBounds": "", // 地図の表示範囲(左下[]、右上[])。未指定時は""
         "initZoom": 15,
         "maxZoom": 23,
         "detailZoom": 17, // モーダルダイアログ表示時のズームサイズ
@@ -55,11 +55,36 @@
             "Noto Sans Regular"
         ], // 使用可能なフォント（spriteに依存）
         "textSize": 12,
-        "textViewZoom": 13 // アイコンに文字を表示するズームレベル
+        "textViewZoom": 13, // アイコンに文字を表示するズームレベル
+        "markerColors": {
+            "hover": {
+                "stroke": "#e9a05b"
+            },
+            //"attention": { "fill": "#ffffff", "stroke": "#ffc786" },
+            "attention": {
+                "fill": "#ffffff",
+                "stroke": "#888888"
+            }, // attentionしか無いのでnormalと同じ色にする
+            "green": {
+                "fill": "#ffffff",
+                "stroke": "#51b3a1"
+            },
+            "middle": {
+                "fill": "#ffffff",
+                "stroke": "#4d77ac"
+            },
+            "normal": {
+                "fill": "#ffffff",
+                "stroke": "#bfbfe1"
+            },
+            "visited": {
+                "fill": "#ffffff",
+                "stroke": "#9c9c9c"
+            }
+        }
     },
     "poiView": {
         "poiActLoad": true, // 起動時にActivityを読み込むか
-        "poiFilter": "", // poiView時の表示範囲 all:画面外も表示 / "":画面内だけを表示
         "poiZoom": {
             // アイコンの前後位置は後ろの方が手前になる
             "historic_area": 15,
@@ -76,18 +101,32 @@
         "menu": "",
         "action": "ChangePoi" // ChangeMap:背景地図切り替え / ChangePoi:メニューに会ったOverpass名のPOIを表示 / "":google Spreadseedのcategory
     },
+    "sideBar": {
+        "everyView": true, // すべてのビューでサイドバーを表示するか
+        "initView": "view" // 空は非表示 / view:表示 / change:表示と拡大の切り替え / mini:縦の時はタイトルのみ表示。横の時は非表示 / list:リスト表示
+    },
     "listTable": {
         "backgroundImage": "./image/bgimage.png",
-        "height": 0.6, // リスト時の高さ(1を最大とした割合)
-        "category": "tags", // カテゴリ選択 / activity:アクティビティリスト / tags:タグ
-        "target": "tags", // target名:overpass名を表示 / activity:google sheetsを表示 / tags:osm poi種別名を表示
+        "category": "activity", // カテゴリ選択 / activity:アクティビティリスト / tags:タグ / menu: タグベースの手動カテゴリ
+        "target": "tags", // targets:指定したtargetだけ表示 / activity:google sheetsのデータのみ表示 // 空:両方表示
         "allActs": false, // true: 全てのactivityを常に表示 / false: 画面内のActivityのみ表示
         "playback": {
             "view": false,
             "zoomLevel": 15,
             "timer": 4000
         },
-        "download": false
+        "download": false,
+        "csvColumn": [ // ダウンロードするCSVの項目
+            "id",
+            "categoryJa",
+            "name",
+            "parentName",
+            "tag",
+            "categoryData",
+            "iconFile",
+            "lng",
+            "lat"
+        ]
     },
     "thumbnail": {
         "use": true,
@@ -96,21 +135,21 @@
         "modalThumbWidth": "800"
     },
     "google": {
-        "Analytics": "",
         "AppScript": "https://script.google.com/macros/s/AKfycbyo7Zx8v0GrlS4BYsp6fP67bRQd-f0khEwyzOarL9CWI2R5Izlt6YdoqOXI5U02cPrI/exec",
         "targetName": "activity"
     },
     "static": {
-        "mode": false,
-        "osmjson": ""
+        "use": true, // true:静的データを利用する / false:OverpassAPIを利用する
+        "osmjsons": [
+            "./data/histories.json"
+        ]
     },
     "wikipedia": {
         "marker": "wikipedia.svg",
         "api_": "wikipedia.org/w/api.php?format=json&action=query&prop=extracts%7Cimages&exintro=&explaintext=&titles=",
         "api": "wikipedia.org/api/rest_v1/page/summary/",
         "domain": "wikipedia.org",
-        "tag": "wikipedia",
-        "image": true
+        "tag": "wikipedia"
     },
     "etc": {
         "localSave": "", // 訪問済み機能フラグ(有効時はアプリ名、無効時は"")
@@ -142,6 +181,18 @@
                 "linkto": "https://www.openstreetmap.org/about",
                 "divider": false
             }
+            /*
+            {
+                "glot-model": "UseOVCacheYes",
+                "linkto": "javascript:cMapMaker.setCacheMode(true)",
+                "divider": false
+            },
+            {
+                "glot-model": "UseOVCacheNo",
+                "linkto": "javascript:cMapMaker.setCacheMode(false)",
+                "divider": false
+            }
+            */
         ],
         "mainSystem": [
             /*
@@ -165,21 +216,20 @@
                 "divider": false
             },
             {
-                "glot-model": "osm_open",
-                "linkto": "javascript:winCont.osm_open(cMapMaker.open_osmid)",
+                "glot-model": "copyShareLink",
+                "linkto": "javascript:cMapMaker.shareURL()",
                 "divider": false
             },
             {
-                "glot-model": "button_close",
-                "linkto": "javascript:winCont.modal_close()",
+                "glot-model": "osm_open",
+                "linkto": "javascript:winCont.osm_open(cMapMaker.openOSMid)",
                 "divider": false
             }
         ],
-        // 詳細モーダルの追加ボタン 
         // 詳細モーダルの追加ボタン
         "activities": [
             {
-                "btn_class": "btn btn-light border-secondary",
+                "btn_class": "btn btn-light btn-lg border-secondary w-50 m-2 p-1",
                 "code": "javascript:modalActs.edit({form:'Nagahama'})",
                 "icon_class": "fas fa-clone",
                 "btn_glot_name": "act_add"
@@ -187,7 +237,7 @@
         ],
         "editActivity": [
             {
-                "btn_class": "btn btn-light border-secondary p-1 btn-max pe-auto",
+                "btn_class": "btn btn-light btn-lg border-secondary w-50 m-2 p-1",
                 "code": "javascript:modalActs.save()",
                 "icon_class": "fa-solid fa-cloud-arrow-up",
                 "btn_glot_name": "act_save"

@@ -5,7 +5,7 @@
             "footer": "",
             "form": {
                 "actdate": {
-                    "glot": "actdate",
+                    "glot": "act_date",
                     "type": "date",
                     "gsheet": "actdate"
                 },
@@ -13,6 +13,11 @@
                     "glot": "title",
                     "type": "text",
                     "gsheet": "title"
+                },
+                "category": {
+                    "glot": "category",
+                    "type": "text",
+                    "gsheet": "category"
                 },
                 "memo": {
                     "glot": "act_memo",
@@ -23,10 +28,6 @@
                     "glot": "act_detail_url",
                     "type": "url",
                     "gsheet": "detail_url"
-                },
-                "attention": {
-                    "glot": "act_attention",
-                    "type": "attention"
                 },
                 "picture_url1": {
                     "glot": "act_picture_url1",
@@ -52,6 +53,26 @@
                     "glot": "act_picture_url5",
                     "type": "image_url",
                     "gsheet": "picture_url5"
+                },
+                "picture_url6": {
+                    "glot": "act_picture_url6",
+                    "type": "image_url",
+                    "gsheet": "picture_url6"
+                },
+                "picture_url7": {
+                    "glot": "act_picture_url7",
+                    "type": "image_url",
+                    "gsheet": "picture_url7"
+                },
+                "picture_url8": {
+                    "glot": "act_picture_url8",
+                    "type": "image_url",
+                    "gsheet": "picture_url8"
+                },
+                "video_url1": {
+                    "glot": "act_video_url1",
+                    "type": "video_url",
+                    "gsheet": "video_url1"
                 }
             }
         }

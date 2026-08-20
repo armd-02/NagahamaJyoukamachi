@@ -1,32 +1,30 @@
 {
     "list": {
-        "height": 0.2,
         "columns": {
-            "common": [
+            "style": [ // id列は書かない
                 {
-                    "id": "osmid",
-                    "hidden": true
+                    "className": "col-6"
                 },
                 {
-                    "id": "category",
-                    "name": "種類",
-                    "width": "50%"
+                    "className": "col-6"
                 },
                 {
-                    "id": "name",
-                    "name": "施設名",
-                    "width": "30%"
+                    "glotName": "listComment",
+                    "className": "col-12",
+                    "icon": true
                 }
             ],
             "poiFields": [
                 "id",
+                "#parent.name,name",
                 "#category",
-                "name"
+                "#memo"
             ],
             "actFields": [ //#付きはOSMタグ、ただし#categoryのみタグからのカテゴリ名判定結果
                 "id", // 最初の列はid固定(#idにするとOSMのPoiでユニークになりActが欠落する)
-                "#category",
-                "#name"
+                "title",
+                "category",
+                "memo"
             ]
         }
     }

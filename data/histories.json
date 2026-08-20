@@ -1,0 +1,1075 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-20T13:56:06Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 411308398,
+      "lat": 35.3813046,
+      "lon": 136.2689049,
+      "tags": {
+        "name": "長浜市曳山博物館",
+        "tourism": "museum",
+        "website": "https://nagahama-hikiyama.or.jp/",
+        "wikidata": "Q132725989",
+        "wikipedia": "ja:曳山博物館"
+      }
+    },
+    {
+      "type": "node",
+      "id": 415123844,
+      "lat": 35.3781944,
+      "lon": 136.2675903,
+      "tags": {
+        "historic": "memorial",
+        "name": "吉川三左衛門屋敷跡（旧本陣）"
+      }
+    },
+    {
+      "type": "node",
+      "id": 416847024,
+      "lat": 35.3768649,
+      "lon": 136.2676578,
+      "tags": {
+        "amenity": "pub",
+        "historic": "yes",
+        "microbrewery": "yes",
+        "name": "長濱浪漫ビール",
+        "name:en": "Nagahama Roman Beer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 506041276,
+      "lat": 35.3809817,
+      "lon": 136.2697307,
+      "tags": {
+        "historic": "building",
+        "name": "文泉堂",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 510306121,
+      "lat": 35.3773557,
+      "lon": 136.2600151,
+      "tags": {
+        "historic": "memorial",
+        "memorial": "stele",
+        "name": "太閤井阯"
+      }
+    },
+    {
+      "type": "node",
+      "id": 510306141,
+      "lat": 35.3779009,
+      "lon": 136.2607046,
+      "tags": {
+        "historic": "ruins",
+        "name": "長浜城天守跡（台）"
+      }
+    },
+    {
+      "type": "node",
+      "id": 534529038,
+      "lat": 35.3797443,
+      "lon": 136.2699055,
+      "tags": {
+        "amenity": "grave_yard",
+        "historic": "ruins",
+        "name": "羽柴秀勝廟",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5249671704,
+      "lat": 35.3772752,
+      "lon": 136.2624138,
+      "tags": {
+        "information": "board",
+        "name": "豊公園の東屋（大正時代）",
+        "source": "survey",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5502987824,
+      "lat": 35.3798013,
+      "lon": 136.2671029,
+      "tags": {
+        "name": "安藤家",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5502988829,
+      "lat": 35.3794553,
+      "lon": 136.2673518,
+      "tags": {
+        "name": "長浜旧開知学校",
+        "tourism": "viewpoint",
+        "wikidata": "Q115632828",
+        "wikipedia": "ja:長浜旧開知学校"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5504784328,
+      "lat": 35.3816362,
+      "lon": 136.2686939,
+      "tags": {
+        "historic": "building",
+        "name": "四居家（まちづくり役場）",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5507550724,
+      "lat": 35.3774147,
+      "lon": 136.2678266,
+      "tags": {
+        "historic": "building",
+        "name": "旗籠白忠",
+        "name:en": "Hatago Hakuchu",
+        "phone": "+81 749 62 3061",
+        "tourism": "hotel",
+        "website": "https://hakuchu.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11201599663,
+      "lat": 35.3800302,
+      "lon": 136.2672334,
+      "tags": {
+        "amenity": "cafe",
+        "check_date": "2026-01-18",
+        "historic": "building",
+        "name": "BIWAKO PICNIC BASE"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12555527347,
+      "lat": 35.3788795,
+      "lon": 136.2680757,
+      "tags": {
+        "historic": "building",
+        "name": "鍋庄商店",
+        "shop": "deli"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12555972306,
+      "lat": 35.3809294,
+      "lon": 136.2693404,
+      "tags": {
+        "name": "玉八商店西家付近の米川沿い",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12557705480,
+      "lat": 35.3772736,
+      "lon": 136.2684643,
+      "tags": {
+        "historic": "street_lamp",
+        "name": "下郷邸のガス灯"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12558298719,
+      "lat": 35.3785708,
+      "lon": 136.2665731,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "jodo_shu",
+        "denomination:ja": "浄土宗",
+        "name": "竜宮門",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12564276043,
+      "lat": 35.3825794,
+      "lon": 136.2662594,
+      "tags": {
+        "building": "yes",
+        "historic": "building",
+        "name": "今重屋敷　能舞館"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12564276044,
+      "lat": 35.3817119,
+      "lon": 136.2667929,
+      "tags": {
+        "building": "yes",
+        "historic": "building",
+        "name": "旧宮川商店"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12564276045,
+      "lat": 35.3789169,
+      "lon": 136.2682150,
+      "tags": {
+        "craft": "confectionery",
+        "historic": "building",
+        "name": "嶋崎商店"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12599843621,
+      "lat": 35.3796778,
+      "lon": 136.2673690,
+      "tags": {
+        "building": "yes",
+        "name": "長浜タワービル",
+        "tourism": "viewpoint",
+        "tower": "長浜タワー",
+        "wikidata": "Q11653277",
+        "wikipedia": "ja:長浜タワービル"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12603608447,
+      "lat": 35.3806118,
+      "lon": 136.2669396,
+      "tags": {
+        "historic": "milestone",
+        "information": "guidepost",
+        "name": "北国街道道標"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12603608448,
+      "lat": 35.3768354,
+      "lon": 136.2681921,
+      "tags": {
+        "historic": "boundary_stone",
+        "name": "朱印地境界石柱"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12603608449,
+      "lat": 35.3773854,
+      "lon": 136.2692997,
+      "tags": {
+        "historic": "boundary_stone",
+        "name": "朱印地境界石柱"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12603608450,
+      "lat": 35.3843988,
+      "lon": 136.2677181,
+      "tags": {
+        "historic": "boundary_stone",
+        "name": "朱印地境界石柱"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12603608451,
+      "lat": 35.3829567,
+      "lon": 136.2645191,
+      "tags": {
+        "historic": "boundary_stone",
+        "name": "朱印地境界石柱"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12621765978,
+      "lat": 35.3821378,
+      "lon": 136.2689569,
+      "tags": {
+        "historic": "building",
+        "name": "三谷旅館",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12624455736,
+      "lat": 35.3770324,
+      "lon": 136.2680615,
+      "tags": {
+        "historic": "stone",
+        "name": "馬つなぎ石"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12685938550,
+      "lat": 35.3805147,
+      "lon": 136.2650528,
+      "tags": {
+        "historic": "yes",
+        "name": "虎石",
+        "natural": "stone"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12685938551,
+      "lat": 35.3761141,
+      "lon": 136.2664025,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "慶雲館の力士像",
+        "name:en": "Sumo wrestler statue",
+        "name:fr": "Statue de lutteur de sumo",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12685938552,
+      "lat": 35.3787789,
+      "lon": 136.2663609,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "金毘羅大権現",
+        "religion": "shinto"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12689949884,
+      "lat": 35.3818418,
+      "lon": 136.2749694,
+      "tags": {
+        "historic": "wayside_shrine",
+        "name": "田の中延命地蔵尊",
+        "religion": "buddhist",
+        "wikimedia_commons": "File:田の中延命地蔵尊.jpg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12690182729,
+      "lat": 35.3823177,
+      "lon": 136.2746430,
+      "tags": {
+        "historic": "memorial",
+        "material": "stone",
+        "memorial": "stone",
+        "name": "長浜八幡宮碑"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12690208907,
+      "lat": 35.3829189,
+      "lon": 136.2752037,
+      "tags": {
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "舎那院の巨木",
+        "name:ja": "舎那院の巨木",
+        "natural": "tree"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12690248330,
+      "lat": 35.3825074,
+      "lon": 136.2752489,
+      "tags": {
+        "man_made": "lamp",
+        "name": "八幡東村の大燈籠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12690295533,
+      "lat": 35.3824088,
+      "lon": 136.2740551,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2025-03-22",
+        "name": "都久夫須麻神社",
+        "religion": "shinto"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12691123809,
+      "lat": 35.3819052,
+      "lon": 136.2732097,
+      "tags": {
+        "ceremonial_gate": "torii",
+        "man_made": "ceremonial_gate",
+        "wikimedia_commons": "File:長浜八幡宮.jpg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13463386348,
+      "lat": 35.3769440,
+      "lon": 136.2646218,
+      "tags": {
+        "historic": "memorial",
+        "material": "stone",
+        "name": "長浜城御蔵屋敷跡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13463427679,
+      "lat": 35.3807234,
+      "lon": 136.2671758,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "黒壁ガラス館本館",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13463534165,
+      "lat": 35.3808045,
+      "lon": 136.2681123,
+      "tags": {
+        "historic": "wayside_shrine",
+        "name": "大手町の地蔵"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13463537278,
+      "lat": 35.3819340,
+      "lon": 136.2686042,
+      "tags": {
+        "check_date": "2026-01-18",
+        "historic": "yes",
+        "name": "会津屋",
+        "shop": "houseware"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13647715792,
+      "lat": 35.3832934,
+      "lon": 136.2693701,
+      "tags": {
+        "historic": "memorial",
+        "memorial": "stone",
+        "name": "加賀の千代女の碑"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13647715793,
+      "lat": 35.3782193,
+      "lon": 136.2597398,
+      "tags": {
+        "bridge:support": "pier",
+        "historic": "yes",
+        "name": "旧針屋橋"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13647715794,
+      "lat": 35.3771313,
+      "lon": 136.2679403,
+      "tags": {
+        "historic": "yes",
+        "name": "船板塀",
+        "name:ja": "船板塀"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13647715795,
+      "lat": 35.3803380,
+      "lon": 136.2659346,
+      "tags": {
+        "historic": "yes",
+        "name": "大手門跡の斜めの敷地"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13647715796,
+      "lat": 35.3840382,
+      "lon": 136.2659452,
+      "tags": {
+        "historic": "yes",
+        "name": "郡上の石燈籠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13653926777,
+      "lat": 35.3823281,
+      "lon": 136.2691999,
+      "tags": {
+        "building": "house",
+        "historic": "yes",
+        "name": "北居家"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13653926778,
+      "lat": 35.3813998,
+      "lon": 136.2708374,
+      "tags": {
+        "building": "house",
+        "historic": "yes",
+        "name": "堤新聞舗"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13653926779,
+      "lat": 35.3756518,
+      "lon": 136.2690179,
+      "tags": {
+        "historic": "yes",
+        "name": "背割り水路",
+        "waterway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13653926780,
+      "lat": 35.3757133,
+      "lon": 136.2697046,
+      "tags": {
+        "historic": "yes",
+        "name": "背割り水路",
+        "waterway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13820107196,
+      "lat": 35.3801809,
+      "lon": 136.2671656,
+      "tags": {
+        "historic": "building",
+        "name": "浄琳寺の太鼓楼"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13820107197,
+      "lat": 35.3812521,
+      "lon": 136.2689627,
+      "tags": {
+        "historic": "yes",
+        "name": "浜仏壇"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13820107198,
+      "lat": 35.3811100,
+      "lon": 136.2691160,
+      "tags": {
+        "historic": "yes",
+        "name": "曳山博物館南庭"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13820107199,
+      "lat": 35.3835971,
+      "lon": 136.2670659,
+      "tags": {
+        "historic": "gate",
+        "name": "知善院表門"
+      }
+    },
+    {
+      "type": "way",
+      "id": 34127968,
+      "nodes": [
+        391288654,
+        12438418158,
+        391288655
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "historic": "bridge",
+        "layer": "1",
+        "name": "鞴（たたら）橋",
+        "name:ja": "鞴橋",
+        "name:ja_rm": "Tatarabashi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 36615806,
+      "nodes": [
+        426059646,
+        426059647
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "service",
+        "historic": "yes",
+        "layer": "1",
+        "name:ja": "どんどん橋",
+        "service": "alley",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 541462754,
+      "nodes": [
+        5235860110,
+        5235860111,
+        5235860112,
+        12692135898,
+        7965555702,
+        12692135899,
+        5235860113,
+        5235860110
+      ],
+      "tags": {
+        "building": "train_station",
+        "building:levels": "2",
+        "historic": "yes",
+        "name": "旧長浜駅舎",
+        "source": "GSImaps/std",
+        "start_date": "1882-03-10"
+      }
+    },
+    {
+      "type": "way",
+      "id": 541463079,
+      "nodes": [
+        5235862659,
+        5235862660,
+        5235862661,
+        5235862662,
+        5235862663,
+        5235862664,
+        5235862665,
+        5235862666,
+        5235862683,
+        5235862667,
+        5235862668,
+        5235862669,
+        5235862670,
+        5235862671,
+        5235862672,
+        5235862659
+      ],
+      "tags": {
+        "building": "house",
+        "contact:tripadvisor": "9806136",
+        "contact:website": "https://www.kitabiwako.jp/keiunkan/",
+        "historic": "yes",
+        "name:en": "Keiunkan",
+        "name:fr": "Keiunkan",
+        "name:ja": "慶雲館",
+        "name:ja-Hira": "けいうんかん",
+        "name:ja-Latn": "Keiunkan",
+        "source": "GSImaps/std",
+        "start_date": "1887-02-21",
+        "tourism": "museum",
+        "wikidata": "Q11495203",
+        "wikimedia_commons": "Category:Keiunkan",
+        "wikipedia": "ja:慶雲館"
+      }
+    },
+    {
+      "type": "way",
+      "id": 661689531,
+      "nodes": [
+        6194682398,
+        12422690009,
+        12422690010,
+        6194682396,
+        12422690011,
+        6194682398
+      ],
+      "tags": {
+        "building": "yes",
+        "historic": "building",
+        "name": "大通寺台所門"
+      }
+    },
+    {
+      "type": "way",
+      "id": 661797836,
+      "nodes": [
+        12690189437,
+        6195827641,
+        12509741754,
+        6195827640,
+        12509742107,
+        6195827639,
+        12690189437
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2025-03-22",
+        "name": "舎那院護摩堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1370248090,
+      "nodes": [
+        12690244249,
+        12690244250,
+        12690244251,
+        12690244252,
+        12690244249
+      ],
+      "tags": {
+        "area": "yes",
+        "historic": "yes",
+        "man_made": "lamp",
+        "name": "金毘羅大権現常夜燈"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1458987735,
+      "nodes": [
+        13380782289,
+        416778340,
+        13380782288,
+        13380782287,
+        13380782286,
+        13380782285,
+        13380782284,
+        13380782289
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination:ja": "浄土真宗本願寺派",
+        "name": "法城山願徳寺",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 391288654,
+      "lat": 35.3786895,
+      "lon": 136.2668493
+    },
+    {
+      "type": "node",
+      "id": 391288655,
+      "lat": 35.3786690,
+      "lon": 136.2667567
+    },
+    {
+      "type": "node",
+      "id": 416778340,
+      "lat": 35.3709144,
+      "lon": 136.2848101
+    },
+    {
+      "type": "node",
+      "id": 426059646,
+      "lat": 35.3819243,
+      "lon": 136.2705690
+    },
+    {
+      "type": "node",
+      "id": 426059647,
+      "lat": 35.3818297,
+      "lon": 136.2706113
+    },
+    {
+      "type": "node",
+      "id": 5235860110,
+      "lat": 35.3767097,
+      "lon": 136.2658467
+    },
+    {
+      "type": "node",
+      "id": 5235860111,
+      "lat": 35.3768125,
+      "lon": 136.2660894
+    },
+    {
+      "type": "node",
+      "id": 5235860112,
+      "lat": 35.3767317,
+      "lon": 136.2661409
+    },
+    {
+      "type": "node",
+      "id": 5235860113,
+      "lat": 35.3766289,
+      "lon": 136.2658982
+    },
+    {
+      "type": "node",
+      "id": 5235862659,
+      "lat": 35.3758552,
+      "lon": 136.2662045
+    },
+    {
+      "type": "node",
+      "id": 5235862660,
+      "lat": 35.3758699,
+      "lon": 136.2662400
+    },
+    {
+      "type": "node",
+      "id": 5235862661,
+      "lat": 35.3758415,
+      "lon": 136.2662576
+    },
+    {
+      "type": "node",
+      "id": 5235862662,
+      "lat": 35.3758650,
+      "lon": 136.2663147
+    },
+    {
+      "type": "node",
+      "id": 5235862663,
+      "lat": 35.3758952,
+      "lon": 136.2662961
+    },
+    {
+      "type": "node",
+      "id": 5235862664,
+      "lat": 35.3759284,
+      "lon": 136.2663768
+    },
+    {
+      "type": "node",
+      "id": 5235862665,
+      "lat": 35.3758516,
+      "lon": 136.2664244
+    },
+    {
+      "type": "node",
+      "id": 5235862666,
+      "lat": 35.3758606,
+      "lon": 136.2664463
+    },
+    {
+      "type": "node",
+      "id": 5235862667,
+      "lat": 35.3758040,
+      "lon": 136.2664813
+    },
+    {
+      "type": "node",
+      "id": 5235862668,
+      "lat": 35.3757912,
+      "lon": 136.2664501
+    },
+    {
+      "type": "node",
+      "id": 5235862669,
+      "lat": 35.3757768,
+      "lon": 136.2664590
+    },
+    {
+      "type": "node",
+      "id": 5235862670,
+      "lat": 35.3756874,
+      "lon": 136.2662416
+    },
+    {
+      "type": "node",
+      "id": 5235862671,
+      "lat": 35.3758005,
+      "lon": 136.2661716
+    },
+    {
+      "type": "node",
+      "id": 5235862672,
+      "lat": 35.3758224,
+      "lon": 136.2662248
+    },
+    {
+      "type": "node",
+      "id": 5235862683,
+      "lat": 35.3758284,
+      "lon": 136.2664693
+    },
+    {
+      "type": "node",
+      "id": 6194682396,
+      "lat": 35.3827069,
+      "lon": 136.2690640
+    },
+    {
+      "type": "node",
+      "id": 6194682398,
+      "lat": 35.3827301,
+      "lon": 136.2689576
+    },
+    {
+      "type": "node",
+      "id": 6195827639,
+      "lat": 35.3831911,
+      "lon": 136.2748812
+    },
+    {
+      "type": "node",
+      "id": 6195827640,
+      "lat": 35.3831201,
+      "lon": 136.2749059
+    },
+    {
+      "type": "node",
+      "id": 6195827641,
+      "lat": 35.3830984,
+      "lon": 136.2748115
+    },
+    {
+      "type": "node",
+      "id": 7965555702,
+      "lat": 35.3767053,
+      "lon": 136.2660787
+    },
+    {
+      "type": "node",
+      "id": 12422690009,
+      "lat": 35.3826941,
+      "lon": 136.2689702
+    },
+    {
+      "type": "node",
+      "id": 12422690010,
+      "lat": 35.3826857,
+      "lon": 136.2689732
+    },
+    {
+      "type": "node",
+      "id": 12422690011,
+      "lat": 35.3827513,
+      "lon": 136.2690483
+    },
+    {
+      "type": "node",
+      "id": 12438418158,
+      "lat": 35.3786844,
+      "lon": 136.2668262
+    },
+    {
+      "type": "node",
+      "id": 12509741754,
+      "lat": 35.3831090,
+      "lon": 136.2748575
+    },
+    {
+      "type": "node",
+      "id": 12509742107,
+      "lat": 35.3831738,
+      "lon": 136.2748872
+    },
+    {
+      "type": "node",
+      "id": 12690189437,
+      "lat": 35.3831693,
+      "lon": 136.2747869
+    },
+    {
+      "type": "node",
+      "id": 12690244249,
+      "lat": 35.3786741,
+      "lon": 136.2668864
+    },
+    {
+      "type": "node",
+      "id": 12690244250,
+      "lat": 35.3786519,
+      "lon": 136.2668934
+    },
+    {
+      "type": "node",
+      "id": 12690244251,
+      "lat": 35.3786469,
+      "lon": 136.2668680
+    },
+    {
+      "type": "node",
+      "id": 12690244252,
+      "lat": 35.3786684,
+      "lon": 136.2668592
+    },
+    {
+      "type": "node",
+      "id": 12692135898,
+      "lat": 35.3767150,
+      "lon": 136.2661015
+    },
+    {
+      "type": "node",
+      "id": 12692135899,
+      "lat": 35.3766962,
+      "lon": 136.2660571
+    },
+    {
+      "type": "node",
+      "id": 13380782284,
+      "lat": 35.3709902,
+      "lon": 136.2851832
+    },
+    {
+      "type": "node",
+      "id": 13380782285,
+      "lat": 35.3712541,
+      "lon": 136.2851341
+    },
+    {
+      "type": "node",
+      "id": 13380782286,
+      "lat": 35.3711928,
+      "lon": 136.2847593
+    },
+    {
+      "type": "node",
+      "id": 13380782287,
+      "lat": 35.3711699,
+      "lon": 136.2847364
+    },
+    {
+      "type": "node",
+      "id": 13380782288,
+      "lat": 35.3709345,
+      "lon": 136.2847778
+    },
+    {
+      "type": "node",
+      "id": 13380782289,
+      "lat": 35.3709758,
+      "lon": 136.2851585
+    }
+  ]
+}

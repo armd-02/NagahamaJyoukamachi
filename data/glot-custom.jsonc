@@ -9,7 +9,7 @@
     },
     "about": {
         "ja": "長浜城下町遺産マップとは",
-        "en": "about agahama Jokamachi Heritage Map"
+        "en": "About Nagahama Jokamachi Heritage Map"
     },
     "about_message": {
         "ja": "<a href='https://nagahama.net/jyoukamachi/' target='_new'>長浜城下町遺産</a>に関する情報を地図に表示するWebサイトです。<br>地図などのデータはOpenStreetMapとWikimedia Commons、長浜城下町遺産のホームページなどを利用しています。",
@@ -21,7 +21,7 @@
     },
     "licence_title": {
         "ja": "利用しているデータについて",
-        "en": "About the data used"
+        "en": "About the data being used"
     },
     "licence_message": {
         "ja": "このサイトで使われているデータは、OpenStreetMapとプロジェクトのデータを組み合わせています。</a>",
@@ -31,9 +31,30 @@
         "ja": "長浜城下町遺産マップの開発サイトへ",
         "en": "Nagahama Jokamachi Heritage Map Development Site"
     },
+    "official_site": {
+        "ja": "長浜城下町遺産の公式サイト",
+        "en": "Official Nagahama Jokamachi Heritage website"
+    },
     "more_message": {
         "ja": "",
         "en": ""
+    },
+    // listtable.js
+    "listCategory": {
+        "ja": "種類",
+        "en": "Category"
+    },
+    "listName": {
+        "ja": "施設名",
+        "en": "Name"
+    },
+    "listComment": {
+        "ja": "💬 ",
+        "en": "💬 "
+    },
+    "listTitle": {
+        "ja": "長浜城下町遺産・関連施設リスト",
+        "en": "Nagahama Jokamachi Heritage and related facilities"
     },
     "activities": {
         "ja": "活動履歴",
@@ -50,6 +71,22 @@
     "act_attention": {
         "ja": "写真URLにWikimedia Commonsを指定する時は、タイトルを入力してください(例 File:遊具名.jpg)",
         "en": "When specifying Wikimedia Commons for the photo URL, enter the title (e.g. File: Play equipment name.jpg)"
+    },
+    "act_date": {
+        "ja": "確認日",
+        "en": "Disaster Date"
+    },
+    "act_address": {
+        "ja": "住所",
+        "en": "Address"
+    },
+    "act_genre": {
+        "ja": "ジャンル",
+        "en": "Genre"
+    },
+    "act_keyword": {
+        "ja": "キーワード",
+        "en": "keyword"
     },
     "act_memo": {
         "ja": "説明",
@@ -81,10 +118,30 @@
     },
     "act_picture_url4": {
         "ja": "写真URL4",
-        "en": "Picture URL3"
+        "en": "Picture URL4"
     },
     "act_picture_url5": {
         "ja": "写真URL5",
-        "en": "Picture URL3"
+        "en": "Picture URL5"
+    },
+    "act_picture_url6": {
+        "ja": "写真URL6",
+        "en": "Picture URL6"
+    },
+    "act_picture_url7": {
+        "ja": "写真URL7",
+        "en": "Picture URL7"
+    },
+    "act_picture_url8": {
+        "ja": "写真URL8",
+        "en": "Picture URL8"
+    },
+    "act_video_url1": {
+        "ja": "動画URL1",
+        "en": "Video URL1"
+    },
+    "act_license_attention": {
+        "ja": "投稿された情報はオープンデータ(CC0)として公開されます。内緒の情報などは書かないでください。",
+        "en": "The posted information will be published as open data (CC0), so please do not include any confidential information."
     }
 }
